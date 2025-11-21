@@ -1,0 +1,92 @@
+/* app/assets/css/navBar.css */
+
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #eaedf1;
+    display: flex;
+    align-items: center!important;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 999999999;
+    font-family: Arial, sans-serif;
+    gap: 10px;
+    width: 100%; 
+}
+
+/* Left section - logo */
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-milogo {
+    height: 60px;   
+    width: auto; 
+}
+
+/* center section - logo */
+
+#navbar-logo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/pcis_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center!important;    
+    gap: 15px; 
+    text-align: center;
+    margin-left: 200px;  
+}
+
+.navbar-logo {
+    height: 25px;   
+    width: auto; 
+}
+
+.navbar-title {
+    margin: 0;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    white-space: nowrap; 
+    align-items: center!important;
+}
+
+/* right section - logo */
+
+.analytic-logo, .user-logo{
+    height: 30px;  
+    width: auto;
+    margin-bottom: 2px;   
+}
+
+.analytic, .user {
+    font-size: 13px !important;
+    color: #000000;
+}
+
+
+.nav-analytics a, .nav-user a {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-decoration: none;  
+}
+
+.nav-user{
+    margin-right: 10px;
+}
+
+
+

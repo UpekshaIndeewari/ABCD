@@ -1,0 +1,30 @@
+/* app/assets/css/mainContent.css */
+
+.stMainBlockContainer {
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.main-panel-container {
+    position: fixed;
+    top: 100px;
+    left: auto;
+    right: auto;
+    padding: 20px;
+    background-color: rgba(243, 120, 120, 0.4);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.main-panel-container h2 {
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.main-panel-container p {
+    color: #666666;
+    line-height: 1.5;
+}

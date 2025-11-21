@@ -1,0 +1,386 @@
+{
+    "type": "FeatureCollection",
+    "name": "data_excel",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "1",
+                "module":  "Water quality",
+                "description": "Monitoring and assessment of water quality parameters, including pollutants and indicators.",
+                "site": "Munster Stadt",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/WQ.png",
+                "x_coordinate": 7.628,
+                "y_coordinate": 51.96
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.628,
+                    51.96
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "2",
+                "module": "Landcover Change",
+                "description": "Analysis of changes in land cover over time, including urbanization and deforestation.",
+                "site": "Bremen University",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/image.png",
+                "x_coordinate": 8.807,
+                "y_coordinate": 53.083
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.807,
+                    53.083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3",
+                "module": "Coastal Change",
+                "description": "Tracking physical and ecological changes along coastlines due to natural and human factors.",
+                "site": "Hamburg Port",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CC_H.png",
+                "x_coordinate": 9.993,
+                "y_coordinate": 53.551
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.993,
+                    53.551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "4",
+                "module": "Coastal Vulnerability", 
+                "description": "Assessment of coastal areas at risk from flooding, erosion, and climate-related impacts.",
+                "site": "Kiel Bay",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CV.png",
+                "x_coordinate": 10.139,
+                "y_coordinate": 54.322
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.139,
+                    54.322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5",
+                "module":  "Water quality", 
+                "description": "Monitoring and assessment of water quality parameters, including pollutants and indicators.",
+                "site": "Lake Constance",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/WQ.png",
+                "x_coordinate": 9.466,
+                "y_coordinate": 47.661
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.466,
+                    47.661
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "6",
+                "module": "Landcover Change",
+                "description": "Analysis of changes in land cover over time, including urbanization and deforestation.",
+                "site": "Leipzig Forest",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/image.png",
+                "x_coordinate": 12.373,
+                "y_coordinate": 51.339
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.373,
+                    51.339
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "7",
+                "module": "Coastal Change",
+                "description": "Tracking physical and ecological changes along coastlines due to natural and human factors.",
+                "site": "Rostock Harbor",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CC.png",
+                "x_coordinate": 12.14,
+                "y_coordinate": 54.088
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.14,
+                    54.088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "8",
+                "module": "Coastal Vulnerability", 
+                "description": "Assessment of coastal areas at risk from flooding, erosion, and climate-related impacts.",
+                "site": "Flensburg Coast",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CV.png",
+                "x_coordinate": 9.433,
+                "y_coordinate": 54.784
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.433,
+                    54.784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "9",
+                "module":  "Water quality",
+                "description": "Monitoring and assessment of water quality parameters, including pollutants and indicators.",
+                "site": "Hannover Riverbank",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/WQ.png",
+                "x_coordinate": 9.738,
+                "y_coordinate": 52.374
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.738,
+                    52.374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "10",
+                "module": "Landcover Change",
+                "description": "Analysis of changes in land cover over time, including urbanization and deforestation.",
+                "site": "Berlin City Park",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/image.png",
+                "x_coordinate": 13.405,
+                "y_coordinate": 52.52
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.405,
+                    52.52
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11",
+                "module": "Coastal Change",
+                "description": "Tracking physical and ecological changes along coastlines due to natural and human factors.",
+                "site": "Greifswald Shore",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CC.png",
+                "x_coordinate": 13.388,
+                "y_coordinate": 54.093
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.388,
+                    54.093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "12",
+                "module": "Coastal Vulnerability", 
+                "description": "Assessment of coastal areas at risk from flooding, erosion, and climate-related impacts.",
+                "site": "LÃ¼beck Bay",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CV.png",
+                "x_coordinate": 10.687,
+                "y_coordinate": 53.868
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.687,
+                    53.868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "13",
+                "module":  "Water quality", 
+                "description": "Monitoring and assessment of water quality parameters, including pollutants and indicators.",
+                "site": "Cologne Rhine",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/WQ.png",
+                "x_coordinate": 6.96,
+                "y_coordinate": 50.937
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.96,
+                    50.937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "14",
+                "module": "Landcover Change",
+                "description": "Analysis of changes in land cover over time, including urbanization and deforestation.",
+                "site": "Freiburg Valley",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/image.png",
+                "x_coordinate": 7.852,
+                "y_coordinate": 47.995
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.852,
+                    47.995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "15",
+                "module": "Coastal Change",
+                "description": "Tracking physical and ecological changes along coastlines due to natural and human factors.",
+                "site": "Cuxhaven Beach",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CC.png",
+                "x_coordinate": 8.697,
+                "y_coordinate": 53.867
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.697,
+                    53.867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "16",
+                "module": "Coastal Vulnerability", 
+                "description": "Assessment of coastal areas at risk from flooding, erosion, and climate-related impacts.",
+                "site": "Wilhelmshaven",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CV.png",
+                "x_coordinate": 8.112,
+                "y_coordinate": 53.529
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.112,
+                    53.529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "17",
+                "module":  "Water quality", 
+                "description": "Monitoring and assessment of water quality parameters, including pollutants and indicators.",
+                "site": "Dresden Elbe",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/WQ.png",
+                "x_coordinate": 13.737,
+                "y_coordinate": 51.05
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.737,
+                    51.05
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "18",
+                "module": "Landcover Change",
+                "description": "Analysis of changes in land cover over time, including urbanization and deforestation.",
+                "site": "Erfurt Field",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/image.png",
+                "x_coordinate": 11.029,
+                "y_coordinate": 50.984
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.029,
+                    50.984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "19",
+                "module": "Coastal Change",
+                "description": "Tracking physical and ecological changes along coastlines due to natural and human factors.",
+                "site": "Stralsund Coast",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CC.png",
+                "x_coordinate": 13.082,
+                "y_coordinate": 54.309
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.082,
+                    54.309
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "20",
+                "module": "Coastal Vulnerability", 
+                "description": "Assessment of coastal areas at risk from flooding, erosion, and climate-related impacts.",
+                "site": "Emden Bay",
+                "gis_image_url": "https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/CV.png",
+                "x_coordinate": 7.206,
+                "y_coordinate": 53.367
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.206,
+                    53.367
+                ]
+            }
+        }
+    ]
+}

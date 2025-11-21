@@ -1,0 +1,13 @@
+/* app/assets/css/global.css */
+
+/* header.stAppHeader {
+    display: none !important;
+} */
+
+/* Move the sidebar expand/collapse button down */
+div[data-testid="stExpandSidebarButton"],
+div.st-emotion-cache-70qvj9.e3g0k5y5 {
+    margin-top: 170px !important; /* adjust height to match your logo */
+}
+
+

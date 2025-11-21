@@ -1,0 +1,112 @@
+/* app/assets/css/sidepanel.css */
+
+/* Increase z-index of Streamlit sidebar */
+section[data-testid="stSidebar"] {
+    position: relative !important;  /* ensure it can have z-index */
+     z-index: 99 !important;      /* higher than most elements */
+}
+
+/* Insert logo into Streamlit sidebar header */
+div[data-testid="stSidebarHeader"] {
+    position: relative;
+    height: 100px !important;
+    margin-top: 30px !important;
+}
+
+/* Add your logo from GitHub */
+div[data-testid="stSidebarHeader"]::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 90%;       /* adjust as needed */
+    height: 100px;      /* adjust as needed */
+    /* background-image: url("https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/mi_logo_blue.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Push collapse button slightly right so it doesn’t overlap the logo */
+div[data-testid="stSidebarCollapseButton"] {
+    margin-left: 60px !important; /* adjust as needed */
+    margin-top: 100px !important;
+}
+
+
+/* Optional: nice hover effect */
+.contact-item:hover .icon {
+    opacity: 0.7;
+}
+
+/* Container for horizontal layout */
+#contact-container {
+    display: flex;
+    justify-content: flex-start; /* align left */
+    align-items: center;
+    gap: 10px; /* space between email and phone blocks */
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* Each contact block container */
+.contact-block {
+    display: flex;
+    flex-direction: column;  /* stack icon and label vertically */
+    align-items: center;
+}
+
+/* Contact item styling */
+.contact-item {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+/* Icon styling */
+.icon {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/* Email icon */
+#contact-icon::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/contact_black.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Phone icon */
+#phone-icon::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/phone_new.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* linkedinicon */
+#linkedin-icon::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://raw.githubusercontent.com/UpekshaIndeewari/ABCD/main/linkedin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
