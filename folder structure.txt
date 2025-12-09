@@ -1,0 +1,20 @@
+streamlit_dashboard/
+├── main.py
+├── README
+├── data/
+│
+└── app/
+    ├── assets/
+    │   ├── css/
+    │   │   ├── dashboard.css
+    │   │   ├── global.css
+    │   │   ├── navbar.css
+    │   │   └── sidepanel.css
+    │   └── images/
+    │
+    ├── components/
+    │   ├── navbar.py
+    │   └── sidepanel.py
+    │
+    └── pages/
+        └── dashboard.py

@@ -1,0 +1,20 @@
+/* Remove top padding from main container */
+[data-testid="stMainBlockContainer"] {
+    padding-top: 0 !important;
+}
+
+/* Remove padding from vertical blocks inside */
+.stVerticalBlock {
+    padding-top: 0 !important;
+}
+
+/* Optional: remove padding from columns */
+.stColumn {
+    padding-top: 0 !important;
+}
+
+/* Optional: remove spacing from Markdown containers */
+.stMarkdown {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
